@@ -100,7 +100,7 @@ nav a:hover {
 .hero {
     background:
         linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
-        url("IMG/toy1.png") center / cover no-repeat;
+        url("./IMG/toy1.png") center / cover no-repeat;
 
     height: 150vh;          /* 🔥 aquí se agranda */
     min-height: 150px;     /* mínimo en pantallas pequeñas */
