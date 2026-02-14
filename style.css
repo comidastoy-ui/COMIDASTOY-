@@ -98,7 +98,7 @@ nav a:hover {
 /* ===================== */
 
 .hero {
-    min-height: 100svh;
+    min-height: 100dhv;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,7 +107,6 @@ nav a:hover {
         url("./IMG/toy1.png") center / cover no-repeat;
 }
 
-    }
     @media (max-width: 768px) {
     .hero {
         height: 70vh;
@@ -516,7 +515,7 @@ footer {
      .contacto {
     background: linear-gradient(#87CEEB, #4ecdc4);
     padding-top: 60px;   /* espacio interno arriba */
-}
+
     
     position: relative;
 }
