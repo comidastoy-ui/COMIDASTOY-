@@ -98,20 +98,13 @@ nav a:hover {
 /* ===================== */
 
 .hero {
-    background:
-        linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
-        url("IMG/toy1.png") center / cover no-repeat;
-
-    height: 150vh;          /* 🔥 aquí se agranda */
-    min-height: 150px;     /* mínimo en pantallas pequeñas */
-
+    min-height: 100svh;
     display: flex;
     align-items: center;
     justify-content: center;
-
-    color: white;
-    text-align: center;
-    text-shadow: 2px 2px 5px black;
+    background:
+        linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+        url("./IMG/toy1.png") center / cover no-repeat;
 }
 
     }
