@@ -510,13 +510,9 @@ footer {
     50% { transform: translateY(-6px); }
 }
 .contacto {
-       padding: 60px 20px;
-    text-align: center;
-     .contacto {
     background: linear-gradient(#87CEEB, #4ecdc4);
-    padding-top: 60px;   /* espacio interno arriba */
-
-    
+    padding: 60px 20px;
+    text-align: center;
     position: relative;
 }
 .contacto::before {
