@@ -115,6 +115,12 @@ nav a:hover {
 }
 
     }
+    @media (max-width: 768px) {
+    .hero {
+        height: 70vh;
+        background-position: top;
+    }
+}
 
 /* ===================== */
 /*  MENÚ / CARDS         */
