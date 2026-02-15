@@ -99,6 +99,7 @@ nav a:hover {
 
 .hero {
     min-height: 100dhv;
+    min-height: 100;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -518,6 +519,7 @@ footer {
 
     
     position: relative;
+}
 }
 .contacto::before {
     content: "";
