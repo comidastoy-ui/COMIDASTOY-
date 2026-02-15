@@ -732,3 +732,19 @@ footer {
         background-position: center 30%;
     }
 }
+.menu-botones {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* 👈 separa los botones */
+    align-items: center;
+}
+.menu {
+    padding-bottom: 60px;
+}
+.contacto h2 {
+    margin-top: 40px;
+}
+button.btn-menu {
+    border: none;
+    outline: none;
+}
