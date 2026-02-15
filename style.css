@@ -435,6 +435,9 @@ footer {
 
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
+.btn-menu {
+    position: relative;
+}
 .btn-menu img {
     width: 80px;
     height: 80px;
