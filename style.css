@@ -519,8 +519,7 @@ footer {
 
     
     position: relative;
-}
-}
+
 .contacto::before {
     content: "";
     position: absolute;
