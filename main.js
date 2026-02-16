@@ -52,5 +52,12 @@ document.addEventListener("DOMContentLoaded", () => {
             menu.classList.toggle('activo');
         });
     }
+    function abrirRedes() {
+    document.getElementById("popupRedes").style.display = "flex";
+}
+
+function cerrarRedes() {
+    document.getElementById("popupRedes").style.display = "none";
+}
 
 });
