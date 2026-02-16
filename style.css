@@ -250,3 +250,18 @@ body {
     cursor: pointer;
     font-size: 1.2rem;
 }
+#toyText {
+    opacity: 0;
+    animation: aparecerTexto 1s ease-out forwards;
+}
+
+@keyframes aparecerTexto {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
