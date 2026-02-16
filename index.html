@@ -87,23 +87,16 @@
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
+document.getElementById("btnRedes").addEventListener("click", function(e) {
+    e.preventDefault();
+    document.getElementById("popupRedes").style.display = "block";
+});
 
-    const boton = document.getElementById("btnRedes");
-    const popup = document.getElementById("popupRedes");
-    const cerrar = document.querySelector(".cerrar");
-
-    boton.addEventListener("click", function(e) {
-        e.preventDefault();
-        popup.style.display = "block";
-    });
-
-    cerrar.addEventListener("click", function() {
-        popup.style.display = "none";
-    });
-
+document.querySelector(".cerrar").addEventListener("click", function() {
+    document.getElementById("popupRedes").style.display = "none";
 });
 </script>
+
 
 </body>
 </html>
