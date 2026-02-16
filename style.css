@@ -256,12 +256,14 @@ body {
     transition: 0.3s;
 }
 
-.btn-red:nth-child(2) {
-    background: #E1306C; /* Instagram */
+/* Instagram */
+.instagram {
+    background: #E1306C;
 }
 
-.btn-red:nth-child(3) {
-    background: #E1306C; /* TikTok */
+/* TikTok */
+.tiktok {
+    background: #000000;
 }
 
 .btn-red:hover {
