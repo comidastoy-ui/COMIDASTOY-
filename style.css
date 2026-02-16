@@ -261,7 +261,7 @@ body {
 }
 
 .btn-red:nth-child(3) {
-    background: RED; /* TikTok */
+    background: #E1306C; /* TikTok */
 }
 
 .btn-red:hover {
