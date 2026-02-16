@@ -301,3 +301,15 @@ button.btn-menu {
     right: 15px;
     cursor: pointer;
 }
+
+.menu-botones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-botones .btn-menu {
+    display: flex;
+    margin: 0 auto; /* esto lo centra sí o sí */
+}
