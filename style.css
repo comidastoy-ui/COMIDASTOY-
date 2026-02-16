@@ -265,3 +265,29 @@ body {
         transform: translateY(0);
     }
 }
+button.btn-menu {
+    all: unset;
+}
+button.btn-menu {
+    background: linear-gradient(145deg, #ff3b3b, #ff6b6b);
+    color: white;
+    font-weight: bold;
+
+    width: 260px;
+    height: 120px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    border-radius: 30px;
+    cursor: pointer;
+
+    box-shadow:
+        0 8px 0 #c92a2a,
+        0 15px 25px rgba(0,0,0,0.3);
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
