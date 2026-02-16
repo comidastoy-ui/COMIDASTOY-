@@ -86,14 +86,22 @@
 </div>
 
 <script>
-    
-function abrirRedes() {
-    document.getElementById("popupRedes").classList.add("activo");
-}
+document.addEventListener("DOMContentLoaded", function() {
 
-function cerrarRedes() {
-    document.getElementById("popupRedes").classList.remove("activo");
-}
+    const boton = document.getElementById("btnRedes");
+    const popup = document.getElementById("popupRedes");
+    const cerrar = document.querySelector(".cerrar");
+
+    boton.addEventListener("click", function(e) {
+        e.preventDefault();
+        popup.style.display = "block";
+    });
+
+    cerrar.addEventListener("click", function() {
+        popup.style.display = "none";
+    });
+
+});
 </script>
 
 </body>
