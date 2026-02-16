@@ -230,9 +230,7 @@ body {
 
 
 
-button.btn-menu {
-    all: unset;
-}
+
 button.btn-menu {
     background: linear-gradient(145deg, #ff3b3b, #ff6b6b);
     color: white;
