@@ -291,3 +291,42 @@ button.btn-menu {
 
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+.popup {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-contenido {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.popup-contenido h2 {
+    margin-bottom: 20px;
+}
+
+.btn-red {
+    display: block;
+    background: #ff3b3b;
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.cerrar {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
