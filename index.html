@@ -70,33 +70,29 @@
     <img src="IMG/wd1.png" alt="Woody" class="woody-footer">
 </footer>
 
-<div id="popupRedes" class="popup">
+<div class="popup" id="popupRedes">
     <div class="popup-contenido">
-
-        <img src="IMG/wd1.png" class="woody-popup" alt="Woody">
-
         <span class="cerrar" onclick="cerrarRedes()">✖</span>
 
-        <h2>🌟 ¡Síguenos! 🌟</h2>
+        <h2>Síguenos en:</h2>
 
-        <a href="https://www.instagram.com/comidastoy/" target="_blank" class="btn-instagram">
-            📸 Instagram
+        <a href="https://instagram.com" target="_blank" class="btn-red">
+            Instagram
         </a>
 
-        <a href="https://www.tiktok.com/@comidas.toy" target="_blank" class="btn-tiktok">
-            🎵 TikTok
+        <a href="https://tiktok.com" target="_blank" class="btn-red">
+            TikTok
         </a>
-
     </div>
 </div>
 
 <script>
 function abrirRedes() {
-    document.getElementById("popupRedes").style.display = "flex";
+    document.getElementById("popupRedes").classList.add("activo");
 }
 
 function cerrarRedes() {
-    document.getElementById("popupRedes").style.display = "none";
+    document.getElementById("popupRedes").classList.remove("activo");
 }
 </script>
 
