@@ -247,14 +247,26 @@ body {
 
 .btn-red {
     display: block;
-    background: red;
-    color: white;
     padding: 12px;
     margin: 10px 0;
     border-radius: 10px;
     text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
+.btn-red:first-of-type {
+    background: #E1306C; /* Instagram */
+}
+
+.btn-red:last-of-type {
+    background: #000000; /* TikTok */
+}
+
+.btn-red:hover {
+    transform: scale(1.05);
+}
 .cerrar {
     position: absolute;
     top: 10px;
